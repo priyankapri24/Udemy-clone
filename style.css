@@ -57,6 +57,10 @@ body {
     align-items: center;
 
 }
+
+.navbar__s4{
+    display: none;
+}
 .mylearning {
     position: relative;
     cursor: pointer;
@@ -135,12 +139,9 @@ body {
     gap: 10px;
     flex-basis: 50%;
     padding-top: 10px;
-
-
 }
 
 .topic {
-
     margin: 10px;
     padding: 10px;
 }
@@ -150,8 +151,6 @@ body {
     flex-grow: 1;
     padding: 10px;
     flex-basis: 25%;
-
-
 }
 
 .popular__title {
@@ -262,4 +261,29 @@ body {
 .footer__one p:hover {
     color: grey;
     cursor: pointer;
+}
+
+/* mediaqueries */
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    }
+    
+}
+@media screen and (max-width:600px) {
+    .course-card{
+        flex-basis: 40%;
+    }
+    .catagories{
+        display: none;
+    }
+    .navbar__s2, .navbar__s3{
+        display: none;
+    } 
+    .navbar__s4{
+        display: block;
+    }
+    .saleimg__offer{
+        top: 10%;
+    }
 }
