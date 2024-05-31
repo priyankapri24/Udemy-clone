@@ -16,3 +16,5 @@ checkout:
 Contributing: This project is a personal portfolio, but feedback is always welcome! If you have any suggestions or ideas for improvement, feel free to reach out or open an issue.
 
 Contact: For any inquiries or further information, please feel free to reach out to me at priyankadevib006@gmail.com .
+
+thank you
